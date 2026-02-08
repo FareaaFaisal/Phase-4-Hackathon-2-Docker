@@ -1,0 +1,26 @@
+# Helm Ignores
+# Patterns to ignore when packaging Helm charts.
+# This file follows the .gitignore syntax.
+# Lines starting with # are comments.
+
+# Common ignored files
+.DS_Store
+.git
+.gitignore
+.gitkeep
+
+# Chart development files
+.helmignore
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Test related
+tests/
+__pycache__/
+*.pyc
+
+# Local development files
+.env
+*.log
